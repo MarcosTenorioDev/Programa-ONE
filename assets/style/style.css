@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #F3F5FC;
+    height: 100vh;
+    width: 100vh;
+    padding: 40px;
+}
+
+#logoBox{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.logoImage{
+    height: 5vh;
+}
