@@ -20,6 +20,7 @@ body{
     flex-grow: 3;
     gap: 60px;
 
+
 }
 
 #logoBox{
@@ -56,6 +57,39 @@ body{
 textarea:focus{
     outline: 0;
 } 
+label{
+    color: #495057;
+    font-weight: 500;
+    font-size: 16px;
+}
+.buttonBox{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+    margin-top: 15px;
+
+}
+.button{
+    width: 35%;
+    padding: 2.8%;
+    border-radius: 24px;
+    font-weight: 500;
+    background: none;
+    font-size: 17px; 
+}
+#btn1:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+#btn1{
+    background-color: #343A40;
+    color: white;
+}
+#btn2:hover{
+    background-color: #343a4015;
+    cursor: pointer;
+}
+
 
 
 #rightSide{
@@ -63,3 +97,4 @@ textarea:focus{
     border-radius: 20px;
     flex-grow: 5;
 }
+
