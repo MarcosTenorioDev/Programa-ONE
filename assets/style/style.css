@@ -12,12 +12,13 @@ body{
     height: 100vh;
     width: 100%;
     padding: 40px;
-    gap: 10%;
+    gap: 4%;
 }
 #leftSide{
     display: flex;
     flex-direction: column;
     flex-grow: 3;
+    gap: 60px;
 
 }
 
@@ -36,9 +37,29 @@ body{
     display: flex;
     flex-direction: column;
 }
+#mainInput{
+    height: 50vh;
+    padding: 10px;
+    resize: none;
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+#mainInput::placeholder{
+    color: #000;
+}
+textarea:focus{
+    outline: 0;
+} 
+
 
 #rightSide{
-
     background-color: white;
+    border-radius: 20px;
     flex-grow: 5;
 }
