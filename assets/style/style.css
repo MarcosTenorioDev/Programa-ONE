@@ -5,11 +5,20 @@
 }
 
 body{
+    max-width: 1280px;
+    margin-inline: auto;
     display: flex;
     background-color: #F3F5FC;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     padding: 40px;
+    gap: 10%;
+}
+#leftSide{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+
 }
 
 #logoBox{
@@ -17,6 +26,19 @@ body{
     align-items: center;
     gap: 2vh;
 }
+
 .logoImage{
     height: 5vh;
+}
+
+.inputBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightSide{
+
+    background-color: white;
+    flex-grow: 5;
 }
