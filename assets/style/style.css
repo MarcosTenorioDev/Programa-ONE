@@ -103,16 +103,20 @@ label{
     flex-direction: column;
     justify-content: center;  
     width: 50%;
-    text-align: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 100%;
 }
 
-.imageNotFoundBox{
+#imageNotFoundBox{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 30px;
     padding: 20px;
+    margin-top: 5%;
 }
 
 .imageNotFound{
@@ -131,4 +135,22 @@ label{
     font-size: 1.2rem;
     max-width: 60%;
     color: #495057;
+}
+.hide{
+    display: none;
+}
+#resultBox{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+}
+#result{
+    font-size: 1.7rem;
+    width: 100%;
+    max-height: 90%;
+    word-wrap: break-word;
+    text-align: start;
 }
