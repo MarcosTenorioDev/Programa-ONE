@@ -153,3 +153,105 @@ label{
     word-wrap: break-word;
     text-align: start;
 }
+
+@media (max-width: 900px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mainInput{
+        height: 20vh;
+        padding: 10px;
+        background: none;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: 700;
+        margin-bottom: 40px;
+        border-radius: 10px;
+    }
+    #rightSide{
+        background-color: white;
+        border-radius: 20px;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        height: 40%;
+    }
+    .imageNotFound{
+        width: 20%;
+    }
+    #leftSide{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        gap: 60px;
+        width: 100%;
+    }
+    .buttonBox{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    .buttonBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .button{
+        width: 80%;
+        padding: 2.8%;
+        border-radius: 24px;
+        font-weight: 500;
+        background: none;
+        font-size: 15px; 
+
+    }
+    #labelImage{
+        font-weight: 700;
+        font-size: 1rem;
+        color: #000;
+    }
+    .imageDescription{
+        text-align: center;
+        font-weight: 500;
+        font-size: 1rem;
+        max-width: 100%;
+        color: #495057;
+    }
+    body{
+        background-color: #F3F5FC;
+        height: 100vh;
+        width: 100%;
+        padding: 5px;
+        border: 2px solid red;
+        margin: 0;
+    }
+    #leftSide{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #rightSide{
+        background-color: white;
+        border-radius: 20px;
+        min-width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+        height: 40%;
+    }
+    
+    
+}
