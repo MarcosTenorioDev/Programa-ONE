@@ -2,9 +2,6 @@
 let inputText = document.getElementById('mainInput');
 let buttonEncrypt = document.getElementById('btn1');
 let buttonDecrypt = document.getElementById('btn2');
-let imageNotFound = document.getElementById('imageNotFound');
-let labelImage = document.getElementById('labelImage');
-let imageDescription = document.getElementById('imageDescription');
 let result = document.getElementById('result');
 let codeDecrypted = '';
 
@@ -60,6 +57,9 @@ const showCodeDecrypted = (codeDecrypted) =>{
 }
 //Função para esconder os elementos estáticos do output
 const hideRightSideElements = () => {
+    let imageNotFound = document.getElementById('imageNotFound');
+    let labelImage = document.getElementById('labelImage');
+    let imageDescription = document.getElementById('imageDescription');
     imageNotFound = imageNotFound.classList.add('hide');
     labelImage = labelImage.classList.add('hide');
     imageDescription = imageDescription.classList.add('hide');
